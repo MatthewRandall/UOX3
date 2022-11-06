@@ -25,19 +25,38 @@ First step, open a new terminal and enter the commands below:
 
 1) Install prerequisites:
 
-   * **Linux:** `sudo apt install git` - This will install git if not already installed (Ubuntu/Debian-based Linux variants). If you're using a non-Debian flavour of Linux, use the default package manager that comes with it to install git instead.
+   * **Linux:** `$ sudo apt install git` - This will install git if not already installed (Ubuntu/Debian-based Linux variants). If you're using a non-Debian flavour of Linux, use the default package manager that comes with it to install git instead.
 
-   * **macOS:** `xcode-select --install` - This will install git if not already installed, along with required make and gcc tools
+   * **macOS:** `$ xcode-select --install` - This will install git if not already installed, along with required make and gcc tools
 
-   * **FreeBSD:** `pkg install git gmake` - This will install git and gmake if not already installed. Alternatively, build `git` and `gmake` via ports if desired.
+   * **FreeBSD:** `$ pkg install git gmake` - This will install git and gmake if not already installed. Alternatively, build `git` and `gmake` via ports if desired.
 
-2) `git clone https://github.com/UOX3DevTeam/UOX3.git` - This will clone the stable master branch of the UOX3 git repository into a subdirectory of the current directory you're in, named UOX3. The latest verified compatible version of SpiderMonkey (v1.7.0) is also included, as well as a minimal set of files required to compile zlib-1.2.11.
+2) Depending on how you intend using UOX3 there are a few ways in which to clone the UOX3 repository.
+
+   + **Stable:** `$ git clone --recurse-submodules https://github.com/UOX3DevTeam/UOX3.git` - Will clone the master branch of the UOX3 repository which represents the current stable release of the server. 
+    
+   + **Development:**  `$ git clone -b develop --recurse-submodules https://github.com/UOX3DevTeam/UOX3.git` - Will clone the develop branch of the UOX3 repository and reflects the most current development progress of the server. 
+   
+   **NOTE:** SpiderMonkey(v1.7.0) source code is included [Verified/Compatible].<br>
+   **NOTE:** zLib(v1.2.11) source code is included [as git submodule].
 
 <details>
-  <summary>Checking out Other Branches</summary>
+  <summary>Checking out branches and making contributions</summary>
 
-  If you'd rather grab another branch of the git repository, like the **develop** branch where most updates get pushed first before being merged into the master branch, you can use the following command *after* completing the previous step:
-  `git checkout develop`
+  - For users just looking to run a UOX3 server will be interested in cloning the ___master___ branch (described above).
+  
+  - For users looking to run a UOX3 server using the most current/cutting-edge development version will be interested in cloning the ___develop___ brannch (described above).
+  
+  - Users interested in contributing to the UOX3 project will want to start by <a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo?platform=windows" target="_blank">forking</a> the UOX3 repository and checking out the forked UOX3 repository. and then creating a new branch based upon the current ___develop___ branch. Users will then code their fixes and/or features, commit and push their changes then create a <a href="" target="_blank">pull</a> request (PR) against the ___develop___ branch.
+  
+    `$ cd <forked_repo_url>`<br>
+    `$ git checkout develop`<br>
+    `$ git checkout -b <v0.xx.x-workdescription>`<br>
+    `  /* Write Code/Fix Bugs/Add Feature/Etc */`<br>
+    `$ git add .`<br>
+    `$ git commit -a -m "Brief commit message describing changes"`<br>
+    `$ git push`<br><br>
+    <a href="" target="_blank">Create Issue or Pull request</a><br>
 
 </details>
 </details>
