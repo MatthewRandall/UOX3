@@ -1,4 +1,0 @@
-        DISCONNECT
-
-  Purpose: 
-        Use this to force a player offline.

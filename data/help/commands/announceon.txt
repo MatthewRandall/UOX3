@@ -1,5 +1,0 @@
-        ANNOUNCEON
-
-  Purpose: 
-        Turns on announcements of when
-        world saves occur.

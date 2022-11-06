@@ -1,5 +1,0 @@
-        DEVINELOCK
-
-  Purpose: 
-        Disables Magic Unlock/Lock on
-	selected container/door.

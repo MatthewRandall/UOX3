@@ -1,5 +1,0 @@
-        NEWY <value> <target>
-
-  Purpose: 
-        Moves targetted item to specified
-        Y coordinate.

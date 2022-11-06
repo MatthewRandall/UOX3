@@ -1,5 +1,0 @@
-        USE
-
-  Purpose: 
-        Essentially the same as double-clicking
-        an item...initiates "usage" of item.

@@ -1,4 +1,0 @@
-        HIDE <target>
-
-  Purpose: 
-        Hides targetted character.

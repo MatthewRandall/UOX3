@@ -1,5 +1,0 @@
-        MUTE
-
-  Purpose: 
-        Will disable targetted character's ability
-        to speak.

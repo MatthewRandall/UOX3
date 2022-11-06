@@ -1,5 +1,0 @@
-        KILL <target>
-
-  Purpose: 
-        Will kill targetted character with a
-        bolt of lightning.

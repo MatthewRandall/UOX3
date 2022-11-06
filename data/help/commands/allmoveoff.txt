@@ -1,6 +1,0 @@
-        ALLMOVEOFF
-
-  Purpose: 
-        Turns off ability to highlight/move
-        all dynamic items, overriding those
-        items' default setting.

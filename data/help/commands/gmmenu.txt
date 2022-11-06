@@ -1,4 +1,0 @@
-        GMMENU <gump-id>
-
-  Purpose: 
-        Used to open gumps from menus.dfn.

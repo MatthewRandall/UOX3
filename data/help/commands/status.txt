@@ -1,3 +1,0 @@
-        STATUS
-  Purpose: 
-        Opens the HTML status information gump.

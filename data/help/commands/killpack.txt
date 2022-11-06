@@ -1,5 +1,0 @@
-        KILLPACK
-
-  Purpose: 
-        Will remove targetted character's
-        backpack.

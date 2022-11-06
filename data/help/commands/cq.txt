@@ -1,4 +1,0 @@
-        CQ
-
-  Purpose: 
-        Show Counselor-Queue.

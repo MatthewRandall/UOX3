@@ -1,5 +1,0 @@
-        ANNOUNCEOFF
-
-  Purpose: 
-        Turns off announcements of when
-        world saves occur.

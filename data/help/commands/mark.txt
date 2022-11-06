@@ -1,5 +1,0 @@
-        MARK
-
-  Purpose: 
-        Same as MARK spell. Target recall
-        rune to mark your current location.

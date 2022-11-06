@@ -1,4 +1,0 @@
-        CSTATS <target>
-
-  Purpose: 
-        Displays data of targetted char.

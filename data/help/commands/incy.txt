@@ -1,5 +1,0 @@
-        INCY <value> <target>
-
-  Purpose: 
-        Increases the Y position of <target>
-        by <value> squares.

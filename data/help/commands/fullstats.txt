@@ -1,5 +1,0 @@
-        FULLSTATS
-
-  Purpose: 
-        Will give your character full health,
-        mana and stamina.

@@ -1,5 +1,0 @@
-        DEVINEUNLOCK
-
-  Purpose: 
-        Enables Magic Unlock/Lock on
-	selected container/door.

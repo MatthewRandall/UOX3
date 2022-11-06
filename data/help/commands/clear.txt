@@ -1,4 +1,0 @@
-        CLEAR
-
-  Purpose: 
-        Clears current GM page from queue.

@@ -1,4 +1,0 @@
-        NEXT
-
-  Purpose: 
-        Go to next GM Page in queue.

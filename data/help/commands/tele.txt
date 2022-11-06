@@ -1,4 +1,0 @@
-        TELE <target>
-  Purpose: 
-        Teleports your character to targeted
-        location.

@@ -1,4 +1,0 @@
-        ISTATS <target>
-
-  Purpose: 
-        Displays data of targetted item.

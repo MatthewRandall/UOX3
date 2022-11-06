@@ -1,4 +1,0 @@
-        MANA <target>
-
-  Purpose: 
-        Replenishes targetted character's mana to full.

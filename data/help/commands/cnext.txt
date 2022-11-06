@@ -1,4 +1,0 @@
-        CNEXT
-
-  Purpose: 
-        Go to next Counselor Page in queue.

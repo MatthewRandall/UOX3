@@ -1,4 +1,0 @@
-        GOTOCUR
-
-  Purpose: 
-        Goes to current call you're attending.

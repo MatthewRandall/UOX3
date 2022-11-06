@@ -1,4 +1,0 @@
-        DELID <hexid>
-
-  Purpose: 
-        Deletes all items of specified HEX-ID.

@@ -1,5 +1,0 @@
-        GOPLACE <value>
-
-  Purpose: 
-        Teleports your character to a specified
-        location from the locations.dfn file.

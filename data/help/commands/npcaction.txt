@@ -1,6 +1,0 @@
-        NPCACTION 0x0D <target>
-
-
-  Purpose: 
-        Makes targeted character play specified
-        character animation.

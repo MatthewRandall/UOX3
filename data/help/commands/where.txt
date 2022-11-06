@@ -1,5 +1,0 @@
-        WHERE
-
-  Purpose: 
-        Displays your character's current ingame
-        coordinates.

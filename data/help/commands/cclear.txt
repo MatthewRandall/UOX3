@@ -1,5 +1,0 @@
-        CCLEAR
-
-  Purpose: 
-        Clears current call from
-        counselor que.

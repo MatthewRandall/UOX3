@@ -1,4 +1,0 @@
-        KICK <target>
-
-  Purpose: 
-        Will force targetted player offline.

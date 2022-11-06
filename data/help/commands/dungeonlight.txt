@@ -1,6 +1,0 @@
-        DUNGEONLIGHT <value>
-
-  Purpose: 
-        Used to set the fixed lightlevel
-        of dungeon-areas. Ranges go from
-        0(brightest) to 20(darkest).

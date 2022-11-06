@@ -1,7 +1,0 @@
-        GLOW <target>
-
-  Purpose: 
-        Will attach an invisible lantern
-        to targetted item, causing
-        it to "glow". Use command again to
-        remove the glow.

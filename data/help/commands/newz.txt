@@ -1,5 +1,0 @@
-        NEWZ <value> <target>
-
-  Purpose: 
-        Moves targetted item to specified
-        Z coordinate.

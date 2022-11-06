@@ -1,4 +1,0 @@
-        GUARDSOFF
-
-  Purpose: 
-        Turns guards off globally.

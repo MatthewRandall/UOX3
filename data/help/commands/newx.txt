@@ -1,5 +1,0 @@
-        NEWX <value> <target>
-
-  Purpose: 
-        Moves targetted item to specified
-        X coordinate.

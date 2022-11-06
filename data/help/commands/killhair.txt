@@ -1,5 +1,0 @@
-        KILLHAIR
-
-  Purpose: 
-        Will remove the targetted character's
-        hair (if any).

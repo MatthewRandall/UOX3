@@ -1,5 +1,0 @@
-        KILLBEARD <target>
-
-  Purpose: 
-        Will remove the targetted character's
-        beard (if any).

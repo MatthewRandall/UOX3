@@ -1,4 +1,0 @@
-        GETLIGHT
-
-  Purpose: 
-        Displays current lightlevel in region.

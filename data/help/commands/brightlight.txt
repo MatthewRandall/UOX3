@@ -1,6 +1,0 @@
-        BRIGHTLIGHT <value>
-
-  Purpose: 
-        Specifies the brightest light
-        that will be displayed in the world
-        when day/night cycles are enabled.

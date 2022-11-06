@@ -1,4 +1,0 @@
-        XBANK <target>
-
-  Purpose: 
-        Opens targeted character's bank box.

@@ -1,3 +1,0 @@
-        READINI
-  Purpose: 
-        Reloads the UOX.INI file.

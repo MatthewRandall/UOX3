@@ -1,5 +1,0 @@
-        MUSIC <value>
-
-  Purpose:
-        Will start playing a MIDI/MP3-song from
-        the Music-list.
