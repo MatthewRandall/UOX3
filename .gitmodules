@@ -1,5 +1,5 @@
 [submodule "zlib"]
-	path = zlib
+	path = source/zlib
 	url = https://github.com/madler/zlib.git
 [submodule "data"]
 	path = data
