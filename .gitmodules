@@ -4,3 +4,6 @@
 [submodule "data"]
 	path = data
 	url = https://github.com/MatthewRandall/UOX3-Data.git
+[submodule "source/JSE"]
+	path = source/JSE
+	url = https://github.com/MatthewRandall/UOX3-JSE.git
