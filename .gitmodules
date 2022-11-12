@@ -1,9 +1,13 @@
 [submodule "zlib"]
 	path = source/zlib
 	url = https://github.com/madler/zlib.git
+	ignore = dirty
 [submodule "data"]
 	path = data
 	url = https://github.com/MatthewRandall/UOX3-Data.git
+	ignore = dirty
 [submodule "source/JSE"]
 	path = source/JSE
 	url = https://github.com/MatthewRandall/UOX3-JSE.git
+	ignore = dirty
+
