@@ -1,18 +1,19 @@
-BASE      := ..
-SPIDER    := $(BASE)/spidermonkey
-ZLIB      := $(BASE)/zlib
+BASE      := .
+LIBS      := $(BASE)/obj
+JSE       := $(BASE)/JSE
+DEST      := ../data
 PLATFORM  := $(shell uname)
 
 ifeq ($(PLATFORM),FreeBSD)
-CXX     	:= clang++
+	CXX     	:= clang++
 else
-CXX     	:= g++
+	CXX     	:= g++
 endif
 
 CXXFLAGS	:= -std=c++17 -O2 -pthread -Wno-shift-negative-value
-LDFLAGS		:= -L$(SPIDER)  -ljs32 -L$(ZLIB) -lz
+LDFLAGS		:= -L$(LIBS)  -luox3jse_d -L$(LIBS) -lz
 TARGET		:= uox3
-INCLUDE		:=  -I$(SPIDER) -I. -I$(ZLIB)
+INCLUDE		:=  -I$(JSE) -I. -I$(LIBS)/include
 
 DEPDIR := ./.deps
 DEPFLAGS = -MT $@ -MMD -MP -MF $(DEPDIR)/$*.d
@@ -39,7 +40,7 @@ $(DEPFILES):
 include $(wildcard $(DEPFILES))
 
 $(TARGET): $(OBJECTS)
-	$(CXX) $(CXXFLAGS) -o $(TARGET) $^ $(LDFLAGS)
+	$(CXX) $(CXXFLAGS) -o $(DEST)/$(TARGET) $^ $(LDFLAGS)
 
 .PHONY: all build clean
 
@@ -52,3 +53,5 @@ build:
 	-@rm -rf $(DEPDIR)
 	-@rm $(TARGET)
 
+ffs:
+	@echo $(value PLATFORM)
